@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jupyterlab:
+    build:
+      context: image_definitions/jupyter/
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
