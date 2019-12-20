@@ -1,0 +1,4 @@
+plotly
+ipywidgets>=7.5
+gym
+gym-gridworlds
